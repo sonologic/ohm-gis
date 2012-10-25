@@ -4,15 +4,15 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>111498.707905</xmin>
-            <ymin>522853.339312</ymin>
-            <xmax>112454.926330</xmax>
-            <ymax>523476.923777</ymax>
+            <xmin>111802.677742</xmin>
+            <ymin>523112.565963</ymin>
+            <xmax>112425.947709</xmax>
+            <ymax>523430.560844</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
             <spatialrefsys>
-                <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                 <srsid>2517</srsid>
                 <srid>28992</srid>
                 <authid>EPSG:28992</authid>
@@ -24,139 +24,144 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="false">
+        <legendlayer drawingOrder="1" open="false" checked="Qt::Checked" name="newroads" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="newroads20121020202615531" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="GA">
-            <legendgroup open="true" checked="Qt::Unchecked" name="sub-group1">
-                <legendlayer drawingOrder="11" open="false" checked="Qt::Unchecked" name="ga_s1_tents" showFeatureCount="0">
+            <legendgroup open="true" checked="Qt::Checked" name="sub-group1">
+                <legendlayer drawingOrder="14" open="false" checked="Qt::Checked" name="ga_s1_tents" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ga_s1_tents20120722161934017" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="13" open="false" checked="Qt::Unchecked" name="camping" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="camping20120722161815053" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="14" open="false" checked="Qt::Unchecked" name="features" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="features20120722161854392" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-            <legendgroup open="true" checked="Qt::Checked" name="velden">
-                <legendlayer drawingOrder="12" open="false" checked="Qt::Checked" name="ga_s1_p" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ga_s1_p20120722161926720" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ga_s1_tents20120722161934017" visible="1"/>
                     </filegroup>
                 </legendlayer>
                 <legendlayer drawingOrder="16" open="false" checked="Qt::Checked" name="camping" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="camping20120722161815053" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="17" open="false" checked="Qt::Checked" name="features" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="features20120722161854392" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="true" checked="Qt::Checked" name="velden">
+                <legendlayer drawingOrder="15" open="false" checked="Qt::Checked" name="ga_s1_p" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="ga_s1_p20120722161926720" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="19" open="false" checked="Qt::Checked" name="camping" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="ga_s1_velden20120722161942244" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="15" open="false" checked="Qt::Checked" name="event" showFeatureCount="0">
+                <legendlayer drawingOrder="18" open="false" checked="Qt::Checked" name="event" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="ga_s1_event20120722161916016" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="true" checked="Qt::PartiallyChecked" name="DWG">
-                <legendlayer drawingOrder="18" open="false" checked="Qt::Checked" name="dwg_polygons" showFeatureCount="0">
+                <legendlayer drawingOrder="21" open="false" checked="Qt::Checked" name="dwg_polygons" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="dwg_polygons20120722161843056" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="19" open="false" checked="Qt::Unchecked" name="dwg_labels" showFeatureCount="0">
+                <legendlayer drawingOrder="22" open="false" checked="Qt::Unchecked" name="dwg_labels" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="dwg_labels20120722161824696" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="true" checked="Qt::Checked" name="sanitair">
-                <legendlayer drawingOrder="10" open="false" checked="Qt::Checked" name="ga_showers" showFeatureCount="0">
+            <legendgroup open="true" checked="Qt::Unchecked" name="sanitair">
+                <legendlayer drawingOrder="13" open="false" checked="Qt::Unchecked" name="ga_showers" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ga_showers20120722161951385" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ga_showers20120722161951385" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="9" open="false" checked="Qt::Checked" name="ga_toilets" showFeatureCount="0">
+                <legendlayer drawingOrder="12" open="false" checked="Qt::Unchecked" name="ga_toilets" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ga_toilets20120722161959090" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ga_toilets20120722161959090" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="0" open="false" checked="Qt::Checked" name="sani_pipes" showFeatureCount="0">
+                <legendlayer drawingOrder="3" open="false" checked="Qt::Unchecked" name="sani_pipes" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="sani_pipes20120805163144664" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="sani_pipes20120805163144664" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ga_nuts" showFeatureCount="0">
+                <legendlayer drawingOrder="2" open="false" checked="Qt::Unchecked" name="ga_nuts" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ga_nuts20120808213412035" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ga_nuts20120808213412035" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
         </legendgroup>
         <legendgroup open="true" checked="Qt::Unchecked" name="misc">
-            <legendlayer drawingOrder="17" open="true" checked="Qt::Unchecked" name="ga_velden" showFeatureCount="0">
+            <legendlayer drawingOrder="20" open="true" checked="Qt::Unchecked" name="ga_velden" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="ga_velden20120722162006073" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="20" open="true" checked="Qt::Unchecked" name="ga_heuvels" showFeatureCount="0">
+            <legendlayer drawingOrder="23" open="true" checked="Qt::Unchecked" name="ga_heuvels" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="ga_heuvels20120722161905992" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="fiber">
-            <legendlayer drawingOrder="1" open="false" checked="Qt::Checked" name="eurofiber" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::Unchecked" name="fiber">
+            <legendlayer drawingOrder="4" open="false" checked="Qt::Unchecked" name="eurofiber" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="eurofiber20120723195257178" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="eurofiber20120723195257178" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="OSM">
-            <legendlayer drawingOrder="5" open="false" checked="Qt::Unchecked" name="administrative" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="OSM">
+            <legendlayer drawingOrder="8" open="false" checked="Qt::Unchecked" name="administrative" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="administrative20120722190618403" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="2" open="false" checked="Qt::Unchecked" name="location" showFeatureCount="0">
+            <legendlayer drawingOrder="5" open="false" checked="Qt::Unchecked" name="location" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="location20120722190747658" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="3" open="false" checked="Qt::Unchecked" name="poi" showFeatureCount="0">
+            <legendlayer drawingOrder="6" open="false" checked="Qt::Unchecked" name="poi" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="poi20120722191125160" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="4" open="false" checked="Qt::Unchecked" name="highway" showFeatureCount="0">
+            <legendlayer drawingOrder="7" open="false" checked="Qt::Checked" name="highway" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="highway20120722190652820" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="highway20120722190652820" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="6" open="false" checked="Qt::Unchecked" name="natural" showFeatureCount="0">
+            <legendlayer drawingOrder="9" open="false" checked="Qt::Unchecked" name="natural" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="natural20120722190840109" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="7" open="true" checked="Qt::Unchecked" name="water" showFeatureCount="0">
+            <legendlayer drawingOrder="10" open="true" checked="Qt::Unchecked" name="water" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="water20120722191300320" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="8" open="true" checked="Qt::Unchecked" name="coastline" showFeatureCount="0">
+            <legendlayer drawingOrder="11" open="true" checked="Qt::Unchecked" name="coastline" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="coastline20120722190643694" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="21" open="false" checked="Qt::Unchecked" name="dkln2006-1m" showFeatureCount="0">
+        <legendlayer drawingOrder="24" open="false" checked="Qt::Unchecked" name="dkln2006-1m" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="dkln2006_1m20120722162130675" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="23">
+    <projectlayers layercount="24">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>administrative20120722190618403</id>
             <datasource>./nl/administrative.shp</datasource>
@@ -165,7 +170,7 @@
             <layername>administrative</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -242,7 +247,7 @@
             <layername>camping</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -311,7 +316,7 @@
             <layername>coastline</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -378,7 +383,7 @@
             <layername>dkln2006-1m</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -433,7 +438,7 @@
             <layername>dwg_labels</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -515,7 +520,7 @@
             <layername>dwg_polygons</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -533,13 +538,13 @@
                     <symbol outputUnit="MM" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="214,214,0,255"/>
+                            <prop k="color" v="255,170,0,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -585,7 +590,7 @@
             <layername>eurofiber</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -669,7 +674,7 @@
             <layername>features</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -738,7 +743,7 @@
             <layername>ga_heuvels</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -803,7 +808,7 @@
             <layername>ga_nuts</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -902,9 +907,9 @@
                 <edittype type="0" name="id"/>
                 <edittype type="0" name="label"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
@@ -915,7 +920,7 @@
             <layername>event</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -985,7 +990,7 @@
             <layername>ga_s1_p</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1055,7 +1060,7 @@
             <layername>ga_s1_tents</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1125,7 +1130,7 @@
             <layername>camping</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1195,7 +1200,7 @@
             <layername>ga_showers</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1263,7 +1268,7 @@
             <layername>ga_toilets</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1331,7 +1336,7 @@
             <layername>ga_velden</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1396,7 +1401,7 @@
             <layername>highway</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -2718,7 +2723,7 @@
             <layername>location</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -2792,7 +2797,7 @@
             <layername>natural</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -2906,6 +2911,86 @@
             <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>newroads20121020202615531</id>
+            <datasource>./ga/newroads.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>newroads</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <srsid>2517</srsid>
+                    <srid>28992</srid>
+                    <authid>EPSG:28992</authid>
+                    <description>Amersfoort / RD New</description>
+                    <projectionacronym>sterea</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="76,38,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="2.1"/>
+                        </layer>
+                        <layer pass="16" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="255,206,128,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="1.9"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>id</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans Serif"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="id"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="60000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>poi20120722191125160</id>
             <datasource>./nl/poi.shp</datasource>
@@ -2914,7 +2999,7 @@
             <layername>poi</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -3125,7 +3210,7 @@
             <layername>sani_pipes</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -3249,7 +3334,7 @@
             <layername>water</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -3340,6 +3425,135 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
+        <Digitizing>
+            <LayerSnappingList type="QStringList">
+                <value>administrative20120722190618403</value>
+                <value>camping20120722161815053</value>
+                <value>coastline20120722190643694</value>
+                <value>dwg_labels20120722161824696</value>
+                <value>dwg_polygons20120722161843056</value>
+                <value>eurofiber20120723195257178</value>
+                <value>features20120722161854392</value>
+                <value>ga_heuvels20120722161905992</value>
+                <value>ga_nuts20120808213412035</value>
+                <value>ga_s1_event20120722161916016</value>
+                <value>ga_s1_p20120722161926720</value>
+                <value>ga_s1_tents20120722161934017</value>
+                <value>ga_s1_velden20120722161942244</value>
+                <value>ga_showers20120722161951385</value>
+                <value>ga_toilets20120722161959090</value>
+                <value>ga_velden20120722162006073</value>
+                <value>highway20120722190652820</value>
+                <value>location20120722190747658</value>
+                <value>natural20120722190840109</value>
+                <value>newroads20121020202615531</value>
+                <value>poi20120722191125160</value>
+                <value>sani_pipes20120805163144664</value>
+                <value>water20120722191300320</value>
+            </LayerSnappingList>
+            <LayerSnappingEnabledList type="QStringList">
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+                <value>disabled</value>
+            </LayerSnappingEnabledList>
+            <AvoidIntersectionsList type="QStringList"/>
+            <LayerSnappingToleranceUnitList type="QStringList">
+                <value>1</value>
+                <value>0</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>0</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+                <value>1</value>
+            </LayerSnappingToleranceUnitList>
+            <LayerSnapToList type="QStringList">
+                <value>to_vertex</value>
+                <value>to_vertex_and_segment</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex_and_segment</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+            </LayerSnapToList>
+            <TopologicalEditing type="int">0</TopologicalEditing>
+            <LayerSnappingToleranceList type="QStringList">
+                <value>0.000000</value>
+                <value>1000.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.100000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+            </LayerSnappingToleranceList>
+        </Digitizing>
         <PositionPrecision>
             <DecimalPlaces type="int">2</DecimalPlaces>
             <Automatic type="bool">true</Automatic>
