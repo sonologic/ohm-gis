@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>111508.234907</xmin>
-            <ymin>522734.438246</ymin>
-            <xmax>113117.413192</xmax>
-            <ymax>523790.306001</ymax>
+            <xmin>111979.942085</xmin>
+            <ymin>523223.700718</ymin>
+            <xmax>112382.236656</xmax>
+            <ymax>523487.667657</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -162,17 +162,17 @@
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="bing" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="bing20121107233533367" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="bing20121108225221403" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>20.991343</xmin>
-            <ymin>-3896.902673</ymin>
-            <xmax>10218.778686</xmax>
-            <ymax>797.063184</ymax>
+            <xmin>-1304.291449</xmin>
+            <ymin>-1251.813530</ymin>
+            <xmax>3788.814602</xmax>
+            <ymax>1089.844425</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -188,65 +188,7 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <projectlayers layercount="26">
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>Raster20121107231707962</id>
-            <datasource>./Terrain map - BInG.jpg</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>Raster</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
-                    <srsid>2517</srsid>
-                    <srid>28992</srid>
-                    <authid>EPSG:28992</authid>
-                    <description>Amersfoort / RD New</description>
-                    <projectionacronym>sterea</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterproperties>
-                <mDrawingStyle>MultiBandColor</mDrawingStyle>
-                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
-                <mInvertColor boolean="false"/>
-                <mRedBandName>Band 1</mRedBandName>
-                <mGreenBandName>Band 2</mGreenBandName>
-                <mBlueBandName>Band 3</mBlueBandName>
-                <mGrayBandName>Not Set</mGrayBandName>
-                <mStandardDeviations>0</mStandardDeviations>
-                <mUserDefinedRGBMinimumMaximum boolean="false"/>
-                <mRGBMinimumMaximumEstimated boolean="true"/>
-                <mUserDefinedGrayMinimumMaximum boolean="false"/>
-                <mGrayMinimumMaximumEstimated boolean="true"/>
-                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
-                <contrastEnhancementMinMaxValues>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>255</max>
-                    </minMaxEntry>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>255</max>
-                    </minMaxEntry>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>255</max>
-                    </minMaxEntry>
-                </contrastEnhancementMinMaxValues>
-                <mNoDataValue mValidNoDataValue="true">-32768.000000</mNoDataValue>
-                <singleValuePixelList>
-                    <pixelListEntry pixelValue="-32768.000000" percentTransparent="100"/>
-                </singleValuePixelList>
-                <threeValuePixelList>
-                    <pixelListEntry red="-32768.000000" blue="-32768.000000" green="-32768.000000" percentTransparent="100"/>
-                </threeValuePixelList>
-            </rasterproperties>
-        </maplayer>
+    <projectlayers layercount="25">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>administrative20120722190618403</id>
             <datasource>./nl/administrative.shp</datasource>
@@ -325,7 +267,7 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>bing20121107233533367</id>
+            <id>bing20121108225221403</id>
             <datasource>./raster/bing.tif</datasource>
             <title></title>
             <abstract></abstract>
@@ -3075,9 +3017,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="UTF-8">ogr</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="1" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="round"/>
                             <prop k="color" v="76,38,0,255"/>
@@ -3086,7 +3028,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="2.1"/>
+                            <prop k="width" v="5"/>
                         </layer>
                         <layer pass="16" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="round"/>
@@ -3096,7 +3038,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="1.9"/>
+                            <prop k="width" v="4.52381"/>
                         </layer>
                     </symbol>
                 </symbols>
