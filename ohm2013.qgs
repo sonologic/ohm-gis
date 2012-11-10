@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>111979.942085</xmin>
-            <ymin>523223.700718</ymin>
-            <xmax>112382.236656</xmax>
-            <ymax>523487.667657</ymax>
+            <xmin>-113824.419920</xmin>
+            <ymin>520406.435453</ymin>
+            <xmax>-113024.201086</xmax>
+            <ymax>520931.501737</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -155,14 +155,14 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="24" open="false" checked="Qt::Unchecked" name="dkln2006-1m" showFeatureCount="0">
+        <legendlayer drawingOrder="24" open="false" checked="Qt::Checked" name="dkln2006-1m" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="dkln2006_1m20120722162130675" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="dkln2006_1m20120722162130675" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="bing" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="bing" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="bing20121108225221403" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="bing20121108225221403" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
