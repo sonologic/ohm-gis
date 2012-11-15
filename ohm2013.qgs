@@ -4,15 +4,15 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-113824.419920</xmin>
-            <ymin>520406.435453</ymin>
-            <xmax>-113024.201086</xmax>
-            <ymax>520931.501737</ymax>
+            <xmin>111045.635516</xmin>
+            <ymin>522493.108768</ymin>
+            <xmax>113041.482026</xmax>
+            <ymax>523740.277700</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
             <spatialrefsys>
-                <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                 <srsid>2517</srsid>
                 <srid>28992</srid>
                 <authid>EPSG:28992</authid>
@@ -30,37 +30,37 @@
             </filegroup>
         </legendlayer>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="GA">
-            <legendgroup open="true" checked="Qt::Unchecked" name="sub-group1">
-                <legendlayer drawingOrder="14" open="false" checked="Qt::Unchecked" name="ga_s1_tents" showFeatureCount="0">
+            <legendgroup open="true" checked="Qt::Checked" name="sub-group1">
+                <legendlayer drawingOrder="14" open="false" checked="Qt::Checked" name="ga_s1_tents" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ga_s1_tents20120722161934017" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="ga_s1_tents20120722161934017" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="16" open="false" checked="Qt::Unchecked" name="camping" showFeatureCount="0">
+                <legendlayer drawingOrder="16" open="false" checked="Qt::Checked" name="camping" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="camping20120722161815053" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="camping20120722161815053" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="17" open="false" checked="Qt::Unchecked" name="features" showFeatureCount="0">
+                <legendlayer drawingOrder="17" open="false" checked="Qt::Checked" name="features" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="features20120722161854392" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="features20120722161854392" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="true" checked="Qt::Unchecked" name="velden">
-                <legendlayer drawingOrder="15" open="false" checked="Qt::Unchecked" name="ga_s1_p" showFeatureCount="0">
+            <legendgroup open="true" checked="Qt::Checked" name="velden">
+                <legendlayer drawingOrder="15" open="false" checked="Qt::Checked" name="ga_s1_p" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ga_s1_p20120722161926720" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="ga_s1_p20120722161926720" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="19" open="false" checked="Qt::Unchecked" name="camping" showFeatureCount="0">
+                <legendlayer drawingOrder="19" open="false" checked="Qt::Checked" name="camping" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ga_s1_velden20120722161942244" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="ga_s1_velden20120722161942244" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="18" open="false" checked="Qt::Unchecked" name="event" showFeatureCount="0">
+                <legendlayer drawingOrder="18" open="false" checked="Qt::Checked" name="event" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ga_s1_event20120722161916016" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="ga_s1_event20120722161916016" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
@@ -166,28 +166,6 @@
             </filegroup>
         </legendlayer>
     </legend>
-    <mapcanvas>
-        <units>degrees</units>
-        <extent>
-            <xmin>-1304.291449</xmin>
-            <ymin>-1251.813530</ymin>
-            <xmax>3788.814602</xmax>
-            <ymax>1089.844425</ymax>
-        </extent>
-        <projections>0</projections>
-        <destinationsrs>
-            <spatialrefsys>
-                <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
-                <srsid>3452</srsid>
-                <srid>4326</srid>
-                <authid>EPSG:4326</authid>
-                <description>WGS 84</description>
-                <projectionacronym>longlat</projectionacronym>
-                <ellipsoidacronym>WGS84</ellipsoidacronym>
-                <geographicflag>true</geographicflag>
-            </spatialrefsys>
-        </destinationsrs>
-    </mapcanvas>
     <projectlayers layercount="25">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>administrative20120722190618403</id>
@@ -197,7 +175,7 @@
             <layername>administrative</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -274,7 +252,7 @@
             <layername>bing</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -332,7 +310,7 @@
             <layername>camping</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -401,7 +379,7 @@
             <layername>coastline</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -468,7 +446,7 @@
             <layername>dkln2006-1m</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -523,7 +501,7 @@
             <layername>dwg_labels</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -605,7 +583,7 @@
             <layername>dwg_polygons</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -675,7 +653,7 @@
             <layername>eurofiber</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -759,7 +737,7 @@
             <layername>features</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -828,7 +806,7 @@
             <layername>ga_heuvels</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -893,7 +871,7 @@
             <layername>ga_nuts</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1005,7 +983,7 @@
             <layername>event</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1075,7 +1053,7 @@
             <layername>ga_s1_p</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1145,7 +1123,7 @@
             <layername>ga_s1_tents</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1215,7 +1193,7 @@
             <layername>camping</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1285,7 +1263,7 @@
             <layername>ga_showers</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1353,7 +1331,7 @@
             <layername>ga_toilets</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1421,7 +1399,7 @@
             <layername>ga_velden</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -1486,7 +1464,7 @@
             <layername>highway</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -2808,7 +2786,7 @@
             <layername>location</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -2882,7 +2860,7 @@
             <layername>natural</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -3004,7 +2982,7 @@
             <layername>newroads</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -3084,7 +3062,7 @@
             <layername>poi</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -3295,7 +3273,7 @@
             <layername>sani_pipes</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
@@ -3419,7 +3397,7 @@
             <layername>water</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs</proj4>
                     <srsid>2517</srsid>
                     <srid>28992</srid>
                     <authid>EPSG:28992</authid>
