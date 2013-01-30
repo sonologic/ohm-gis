@@ -24,6 +24,9 @@ mapfile = '1141-6006-1-gmc-cropped.dxf'
 # - text, fontSize: The color and font size used to render text labels in the data source.
 #                   Font sizes are in a scale roughly compatible with those specified in QCad.
 #
+# If color/width, fill, or text/fontSize are not defined for a given data source, then
+# data of that type in the data source will not be rendered on the map.
+#
 
 layers = [
 	('Fields', [
