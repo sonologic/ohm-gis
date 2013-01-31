@@ -59,8 +59,9 @@ layers = [
 		{
 			'file': mapfile,
 			'layers': ['V[0-9][0-9] .*'],
-			'color': '404040',
+			'color': '202020',
 			'width': '3',
+			'fill': 'e0e0e0',
 		},
 		{
 			'file': mapfile,
