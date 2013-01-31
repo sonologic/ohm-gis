@@ -24,9 +24,6 @@ mapfile = '1141-6006-1-gmc-cropped.dxf'
 # - text, fontSize: The color and font size used to render text labels in the data source.
 #                   Font sizes are in a scale roughly compatible with those specified in QCad.
 #
-# If color/width, fill, or text/fontSize are not defined for a given data source, then
-# data of that type in the data source will not be rendered on the map.
-#
 
 layers = [
 	('Fields', [
@@ -35,7 +32,7 @@ layers = [
 			'layers': ['FIELD.*'],
 			'color': '008000',
 			'width': '3',
-			'fill': '00ff0080',
+			'fill': '00ff0060',
 			'text': '000000',
 			'fontSize': 10,
 		}
@@ -49,26 +46,27 @@ layers = [
 			'fill': 'ffff00c0',
 		}
 	]),
-	('Roads', [
-		{
-			'file': mapfile,
-			'layers': ['V[0-9][0-9] .*'],
-			'color': '808080',
-			'width': '2',
-		},
-		{
-			'file': mapfile,
-			'layers': ['bouwweg', 'event roads'],
-			'color': 'ff0000',
-			'width': '1',
-		}
-	]),
 	('Ditches', [
 		{
 			'file': mapfile,
 			'layers': ['W[0-9][0-9] .*'],
 			'color': '0000ff',
 			'width': '2',
+			'fill': '0080ffc0',
+		}
+	]),
+	('Roads', [
+		{
+			'file': mapfile,
+			'layers': ['V[0-9][0-9] .*'],
+			'color': '404040',
+			'width': '3',
+		},
+		{
+			'file': mapfile,
+			'layers': ['bouwweg', 'event roads'],
+			'color': 'ff0000',
+			'width': '1',
 		}
 	]),
 	('Power', [
