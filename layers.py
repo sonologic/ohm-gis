@@ -65,7 +65,7 @@ layers = [
 		},
 		{
 			'file': mapfile,
-			'layers': ['bouwweg', 'event roads'],
+			'layers': ['bouwweg', 'event roads', 'temp bridges'],
 			'color': 'ff0000',
 			'width': '1',
 		}
